@@ -1,0 +1,23 @@
+# Project-local runtime and private study records
+/.venv/
+/docs/
+/data/
+/models/
+/weights/
+/runs/
+/artifacts/
+/checkpoints/
+/dist/
+/build/
+/.env
+/.env.*
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# The umbrella ignores data/ generally; keep this source package versionable.
+!/src/data/
+!/src/data/**

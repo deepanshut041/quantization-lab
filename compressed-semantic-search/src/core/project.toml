@@ -1,0 +1,14 @@
+schema_version = 1
+project_id = "compressed-semantic-search"
+
+[model]
+repo_id = "google/embeddinggemma-2"
+revision = "914f7f89142e33e77833254d9c9b90c3cef7303b"
+compute_dtype = "float32"
+
+[experiment]
+seed = 17
+embedding_dimensions = 768
+top_k = 10
+normalize = true
+index_precisions = ["float32", "int8", "ubinary"]
